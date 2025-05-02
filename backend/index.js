@@ -8,7 +8,8 @@ const PORT = process.env.PORT || 4000;
 
 app.use(
   cors({
-    origin: "*",
+    origin: "https://employee-details-frontend-a46w.onrender.com",
+    credentials:true
   })
 );
 // Middleware
